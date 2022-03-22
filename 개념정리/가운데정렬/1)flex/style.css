@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  background: aqua;
+  border: 5px solid red;
+
+  /*레이아웃*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  /*박스모델*/
+  width: 50vw;
+  height: 10vw;
+  border: 5px solid yellow;
+  background-color: blue;
+
+  /*텍스트*/
+  color: white;
+  font-size: 4vw;
+  text-align: center;
+}

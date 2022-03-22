@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  background: aqua;
+  border: 5px solid red;
+}
+
+.center {
+  /*박스모델*/
+  width: 70vw;
+  height: 10vh;
+  border: 5px solid yellow;
+  background-color: blue;
+  margin: auto;
+}
